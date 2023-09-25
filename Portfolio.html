@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="./css/thu vien luoi.css">
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <link type="text/css" rel="stylesheet" href="./css/hover.css">
+    <link type="text/css" rel="stylesheet" href="./css/jquery.fancybox.css">
+    <link type="text/css" rel="stylesheet" href="./css/owl.carousel.css">
+    <link type="text/css" rel="stylesheet" href="./css/owl.theme.default.css">
+
+
+</head>
+
+<body>
+    <header>
+        <button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <div class="container d-flex justify-content-between">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png">
+            </div>
+            <div class="menu" id="main-menu">
+                <ul>
+                    <li><a href="#Home" class="menu-item active">Home</a></li>
+                    <li><a href="#About" class=" menu-item">About</a></li>
+                    <li><a href="#Skill" class=" menu-item">Skill</a></li>
+                    <li><a href="#Service" class=" menu-item">Service</a></li>
+                    <li><a href="#Project" class=" menu-item">Project</a></li>
+                    <li><a href="#Testimonial" class=" menu-item">Testimonial</a></li>
+                    <li><a href="#Contact" class=" menu-item">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="Home" class="scrollspy">
+        <div class="container">
+            <h1 class="pt-30">I am</h1>
+            <h1 class="ten"> THANH MAI</h1>
+            <h1><span class="element text-vang"></span></h1>
+            <button type="button" class="btn-primary">Download CV</button>
+        </div>
+    </section>
+    <section id="About" class="scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row d-flex align-item">
+                        <div class="col-4">
+                            <div class="year">
+                                <div class="number">
+                                    05
+                                </div>
+                                <h4>Years</h4>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <h3 class="text-den"> of working experience as web designer & developer</h3>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum consequatur commodi, ullam
+                        veritatis enim doloribus amet, ad ipsa magni soluta quibusdam harum aperiam voluptate accusamus
+                        distinctio sunt neque dolorem rem!</p>
+                    <p><i class="fas fa-check-circle mr-10"></i><a class="word">Affordable Prices</a></p>
+                    <p><i class="fas fa-check-circle mr-10"></i><a class="word">High Quality Products</a></p>
+                    <p><i class="fas fa-check-circle mr-10"></i><a class="word">On Time Project Delivery</a></p>
+                    <button type="button" class="btn-secondary">Read more</button>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="./img/about-1.jpg" alt="" class="img-fluid bo-goc">
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/about-2.jpg" alt="" class="img-fluid bo-goc">
+                        </div>
+                    </div>
+                    <h3>Happy Clients: <span class="counter text-do" data-counter-time="1000"
+                            data-counter-delay="10">1000</span>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo aut saepe deleniti cum
+                        adipisci aspernatur! Quos, perferendis delectus, doloremque odit maiores dolorum consequatur
+                        nemo esse placeat velit, sit totam.</p>
+                    <h3>Project Completed: <span class="counter text-do" data-counter-time="1000"
+                            data-counter-delay="10">736</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa est facilis inventore, officia
+                        recusandae itaque aperiam assumenda numquam perspiciatis doloremque voluptatem nam rerum vitae
+                        quo. Quo ratione sequi quidem. Vero!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Skill" class="scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p class="head">
+                        Skill & Experience
+                    </p>
+                    <p class="mb-15">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis non temporibus
+                        exercitationem sint saepe.
+                    </p>
+                    <p class="my-skills mt-10">My Skills</p>
+                    <div class="col-6">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="bar" style="background-color: red; width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="bar" style="background-color: green; width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="bar" style="background-color: blue; width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="bar" style="background-color: blueviolet; width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Experience')"
+                            id="defaultOpen">Experience</button>
+                        <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
+                    </div>
+
+                    <div id="Experience" class="tabcontent">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Adobe Design</h3>
+                                <p>2021-2022</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>Photoshop</h3>
+                                <p>2022-2023</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Photo</h3>
+                                <p>2021-2022</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>Product Designer</h3>
+                                <p>2022-2023</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Education" class="tabcontent">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>HTML</h3>
+                                <p>2021-2022</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>CSS</h3>
+                                <p>2022-2023</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>HTML</h3>
+                                <p>2021-2022</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>CSS</h3>
+                                <p>2022-2023</p>
+                                <p>Arena Multimedia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Service" class="scrollspy">
+        <div class="container">
+            <h1 class="title hvr-underline-from-center">My Services</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="service-text hvr-bounce-to-right">
+                            <b>Web Designer</b>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="service-text hvr-bounce-to-right">
+                            <b>Web Designer</b>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="service-text hvr-bounce-to-right">
+                            <b>Web Designer</b>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="service-text hvr-bounce-to-right">
+                            <b>Web Designer</b>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Project" class="scrollspy">
+        <div class="container">
+            <div class="d-flex justify-content-between align-item">
+                <h1 class="title">My Projects</h1>
+                <div class="tab2">
+                    <button class="tablinks2 hvr-underline-from-center" onclick="openCity2(event, 'AllProjects')"
+                        id="defaultOpen2">All Projects</button>
+                    <button class="tablinks2 hvr-underline-from-center" onclick="openCity2(event, 'UI/UXDesign')">UI/UX
+                        Design</button>
+                    <button class="tablinks2 hvr-underline-from-center"
+                        onclick="openCity2(event, 'GraphicDesign')">Graphic
+                        Design</button>
+                </div>
+            </div>
+
+            <div class="Relative">
+                <div id="AllProjects" class="tabcontent2">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme" id="gallery">
+                            <div class="item">
+                                <a href="./img/project-1.jpg" data-fancybox="image" data-caption="Hình 1"> <img
+                                        src="./img/project-1.jpg" /></a>
+                                <h4 class="text-center">Quang cao 01</h4>
+                            </div>
+                            <div class="item">
+                                <a href="./img/project-2.jpg" data-fancybox="image" data-caption="Hình 2"> <img
+                                        src="./img/project-2.jpg" /></a>
+                                <h4 class="text-center">Quang cao 02</h4>
+                            </div>
+                            <div class="item">
+                                <a href="./img/project-3.jpg" data-fancybox="image" data-caption="Hình 3"> <img
+                                        src="./img/project-3.jpg" /></a>
+                                <h4 class="text-center">Quang cao 03</h4>
+                            </div>
+                            <div class="item">
+                                <a data-fancybox data-width="1280" data-height="720" href="./video/qc-2.mp4"> <img
+                                        src="./img/project-4.jpg" alt=""></a>
+                                <h4 class="text-center">Quang cao 04</h4>
+                            </div>
+                            <div class="item">
+                                <a data-fancybox data-width="1280" data-height="720"
+                                    href="https://www.youtube.com/embed/W9iFhy_7GXo"> <img src="./img/project-5.jpg"
+                                        alt=""></a>
+                                <h4 class="text-center">Quang cao 05</h4>
+                            </div>
+                            <div class="item">
+                                <a data-fancybox data-width="1280" data-height="720"
+                                    href="https://www.youtube.com/embed/LqME1y6Mlyg"> <img src="./img/project-6.jpg"
+                                        alt="">
+                                </a>
+                                <h4 class="text-center">Quang cao 06</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="UI/UXDesign" class="tabcontent2">
+                <div class="row">
+                    <div class="col-4">
+                        <a data-fancybox data-width="1280" data-height="720" href="./video/qc-2.mp4"> <img
+                                src="./img/project-4.jpg" alt="" class="img-fluid"></a>
+                        <h4 class="text-center">Quang cao 01</h4>
+                    </div>
+                    <div class="col-4">
+                        <a data-fancybox data-width="1280" data-height="720"
+                            href="https://www.youtube.com/embed/W9iFhy_7GXo"> <img src="./img/project-5.jpg" alt=""
+                                class="img-fluid"></a>
+                        <h4 class="text-center">Quang cao 02</h4>
+
+                    </div>
+                    <div class="col-4">
+                        <a data-fancybox data-width="1280" data-height="720"
+                            href="https://www.youtube.com/embed/LqME1y6Mlyg"> <img src="./img/project-6.jpg" alt=""
+                                class="img-fluid"> </a>
+                        <h4 class="text-center">Quang cao 03</h4>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="GraphicDesign" class="tabcontent2">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="./img/project-1.jpg" data-fancybox="image" data-caption="Hình 1"> <img
+                                src="./img/project-1.jpg" class="img-fluid" /></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="./img/project-2.jpg" data-fancybox="image" data-caption="Hình 2"> <img
+                                src="./img/project-2.jpg" class="img-fluid" /></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="./img/project-3.jpg" data-fancybox="image" data-caption="Hình 3"> <img
+                                src="./img/project-3.jpg" class="img-fluid" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Testimonial" class="scrollspy">
+        <h1 class="title text-center">Testimonial</h1>
+        <div class="row d-flex justify-content-center pt-15">
+            <div class="col-10">
+                <div class="owl-carousel owl-theme" id="cam-nhan">
+                    <div class="item">
+                        <div class="client">
+                            <img src="./img/testimonial-1.jpg" alt="" class="vien">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum harum tenetur error
+                                sunt neque eos iure repellat quod animi corporis labore esse odit aspernatur iste quo,
+                                fuga est? Error!</p>
+                            <p><b>Client Name</b></p>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <img src="./img/testimonial-2.jpg" alt="" class="vien">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum harum tenetur
+                                error
+                                sunt neque eos iure repellat quod animi corporis labore esse odit aspernatur iste
+                                quo,
+                                fuga est? Error!</p>
+                            <p><b>Client Name</b></p>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <img src="./img/testimonial-3.jpg" alt="" class="vien">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum harum tenetur
+                                error
+                                sunt neque eos iure repellat quod animi corporis labore esse odit aspernatur iste
+                                quo,
+                                fuga est? Error!</p>
+                            <p><b>Client Name</b></p>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact" class="scrollspy">
+        <div class="container">
+            <h1>Let's Work Together</h1>
+            <div class="row">
+                <div class="col-5">
+                    <p>My Office</p>
+                    <p class="title f-25 vien-chan">214 Nguyen Dinh Chieu, District 3, Ho Chi Minh city</p>
+                    <p>Call me</p>
+                    <p class="title f-25 vien-chan">012 345 678</p>
+                    <p>Email me</p>
+                    <p class="title f-25 vien-chan">uyennhi041203@gmail.com</p>
+                    <p>Follow me</p>
+                    <a href="#"><i class="fab fa-twitter-square fa-2x mr-10"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f fa-2x mr-10"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square fa-2x mr-10"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in fa-2x mr-10"></i></a>
+                </div>
+                <div class="col-7">
+                    <input type="text" name="hoten" placeholder="Your Name" size="35" class="form-control">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/typingcord.js"></script>
+    <script src="./js/simple-scrollspy.min.js"></script>
+    <script src="./js/simple-scrollspy.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script src="./js/backtotop.js"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/control-slider.js"></script>
+
+</body>
+
+</html>

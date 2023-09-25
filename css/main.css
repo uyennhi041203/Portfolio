@@ -1,0 +1,420 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 5px 5px 5px lightgray;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 100;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.logo img {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.menu {
+    line-height: 60px;
+    min-width: 700px;
+    width: 70%;
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    list-style: none;
+    min-width: 70px;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 20px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(34, 19, 171);
+    color: rgb(235, 230, 225);
+}
+
+.menu ul li a.active {
+    background-color: rgb(34, 19, 171);
+    color: rgb(235, 230, 225);
+}
+
+
+#About {
+    width: 100%;
+    min-height: 700px;
+    padding-top: 100px;
+}
+
+#About .number {
+    width: 130px;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+#About .year {
+    width: 100%;
+    color: black;
+    padding: 10px;
+}
+
+#About .year h4 {
+    margin-top: 0;
+    letter-spacing: 22px;
+    padding-left: 10px;
+}
+
+#Home {
+    background-image: url(../img/bg-header.png), url(../img/profile.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 1000px;
+    padding-top: 50px;
+}
+
+.ten {
+    font-size: 40px;
+    color: black;
+}
+
+.text-vang {
+    color: goldenrod;
+}
+
+#Skill {
+    width: 100%;
+    min-height: 500px;
+}
+
+#Skill .head {
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#Skill .my-skills {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.progress {
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.bar {
+    height: 17px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+#Service {
+    width: 100%;
+    min-height: 500px;
+}
+
+#Service .service {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+}
+
+#Service .service-icon {
+    width: 180px;
+    height: 150px;
+    border: 1.5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Service .service-icon i {
+    font-size: 45px;
+    color: red;
+    transition: all 0.8s;
+}
+
+#Service .service:hover .service-icon i {
+    font-size: 60px;
+}
+
+#Service .service-text {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    transition: all 0.8s;
+}
+
+#Service .service:hover .service-text {
+    background-color: red;
+    color: white;
+}
+
+#Project {
+    width: 100%;
+    min-height: 550px;
+}
+
+#Project .tab2 {
+    overflow: hidden;
+}
+
+#Project .tab2 button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-left: 5px;
+    background: none;
+}
+
+#Project .tab2 button:hover {
+    background-color: white;
+}
+
+#Project .tab2 button.active {
+    background-color: white;
+}
+
+#Project .tabcontent2 {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+#Project #gallery .owl-nav {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 100%;
+}
+
+#Project #gallery .owl-nav [class*='owl-'] {
+    font-size: 60px;
+    /*background:rgba(255,255,255,.5);border:1px solid #fff; */
+    color: black;
+}
+
+#Project #gallery .owl-nav .owl-next {
+    position: absolute;
+    right: 5%;
+}
+
+#Project #gallery {
+    position: absolute;
+    left: 5%;
+}
+
+#Project #gallery .owl-nav [class*='owl-']:hover {
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+#Project #gallery .owl-nav {
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    width: 100%;
+}
+
+#Project #gallery .owl-nav [class*='owl-'] {
+    font-size: 35px;
+    /* border: 1px solid #8E8E8E; */
+    color: black;
+    width: 40px;
+}
+
+#Project #gallery .owl-nav .owl-next {
+    position: absolute;
+    right: -8%;
+}
+
+#Project #gallery .owl-nav .owl-prev {
+    position: absolute;
+    left: -8%;
+}
+
+#Project #gallery .owl-nav [class*='owl-']:hover {
+    background: none;
+    color: red;
+    text-decoration: none;
+}
+
+.Relative {
+    position: relative;
+}
+
+#Testimonial {
+    width: 100%;
+    min-height: 700px;
+    background-color: #ccc;
+}
+
+#Testimonial .client {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+#Testimonial .client img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vien {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+#cam-nhan .owl-nav {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 100%;
+}
+
+#cam-nhan .owl-nav [class*='owl-'] {
+    font-size: 60px;
+    /*background:rgba(255,255,255,.5);border:1px solid #fff; */
+    color: #fff
+}
+
+#cam-nhan .owl-nav .owl-next {
+    position: absolute;
+    right: 0%;
+}
+
+#cam-nhan .owl-nav .owl-prev {
+    position: absolute;
+    left: 0%;
+}
+
+#cam-nhan .owl-nav [class*='owl-']:hover {
+    background: none;
+    border: none;
+    color: grey;
+    text-decoration: none;
+}
+
+#Contact {
+    width: 100%;
+    min-height: 900px;
+}
+
+.text-den {
+    color: black;
+}
+
+.bo-goc {
+    border-radius: 10px;
+}
+
+.text-do {
+    color: red;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(171, 96, 218);
+    border-radius: 7px;
+    display: flex;
+    /* padding: 4px; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    width: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background: none;
+    border-radius: 7px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #9053d1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #9053d1;
+    color: white;
+    border-radius: 7px;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.title {
+    color: black;
+}
+
+.f-25 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vien-chan {
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
